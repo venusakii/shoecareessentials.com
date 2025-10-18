@@ -33,7 +33,7 @@ export function ReviewsSection() {
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6">Trusted by Enthusiasts</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8" />
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-foreground max-w-2xl mx-auto leading-relaxed">
             See what our customers say about their experience
           </p>
         </div>
@@ -49,7 +49,7 @@ export function ReviewsSection() {
                   <Star key={i} className="w-5 h-5 fill-accent text-accent" />
                 ))}
               </div>
-              <p className="text-muted-foreground mb-6 leading-relaxed italic">"{review.text}"</p>
+              <p className="text-foreground mb-6 leading-relaxed italic">"{review.text}"</p>
               <div className="flex items-center gap-4">
                 <img
                   src={review.avatar || "/placeholder.svg"}
@@ -58,7 +58,7 @@ export function ReviewsSection() {
                 />
                 <div>
                   <p className="font-bold text-foreground">{review.name}</p>
-                  <p className="text-sm text-muted-foreground">{review.role}</p>
+                  <p className="text-sm text-foreground/70">{review.role}</p>
                 </div>
               </div>
             </div>

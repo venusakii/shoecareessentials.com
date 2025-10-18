@@ -50,11 +50,11 @@ export function ProductReviewCard({ product }: ProductReviewCardProps) {
                 ))}
               </div>
               <span className="text-sm font-medium">{product.rating}</span>
-              <span className="text-sm text-muted-foreground">({product.reviewCount} reviews)</span>
+              <span className="text-sm text-foreground/70">({product.reviewCount} reviews)</span>
             </div>
 
             {/* Excerpt */}
-            <p className="text-sm text-muted-foreground leading-relaxed text-pretty">{product.excerpt}</p>
+            <p className="text-sm text-foreground/80 leading-relaxed text-pretty">{product.excerpt}</p>
 
             {/* Read More Link */}
             <div className="mt-4 text-sm font-medium text-accent group-hover:underline">Read all reviews →</div>

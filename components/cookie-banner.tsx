@@ -31,7 +31,7 @@ export function CookieBanner() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div className="flex-1">
             <h3 className="font-bold text-foreground mb-2">Cookie Notice</h3>
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-sm text-foreground/80 leading-relaxed">
               We use cookies to enhance your browsing experience and analyze site traffic. This site contains affiliate
               links, and we may earn a commission from qualifying purchases made through links on this site (such as
               Amazon Associates).

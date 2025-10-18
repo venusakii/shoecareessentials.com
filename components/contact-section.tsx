@@ -53,7 +53,7 @@ export function ContactSection() {
           <div className="space-y-8">
             <div>
               <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-balance">Get in Touch</h2>
-              <p className="text-muted-foreground text-pretty">
+              <p className="text-foreground/80 text-pretty">
                 Have questions about our products or need personalized recommendations? Our team of shoe care experts is
                 here to help.
               </p>
@@ -71,7 +71,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">{item.title}</h3>
-                    <p className="text-sm text-muted-foreground">{item.content}</p>
+                    <p className="text-sm text-foreground/80">{item.content}</p>
                   </div>
                 </a>
               ))}
@@ -79,7 +79,7 @@ export function ContactSection() {
 
             <div className="p-6 rounded-lg bg-accent/5 border border-accent/20">
               <h3 className="font-serif text-xl font-bold mb-2">Business Hours</h3>
-              <div className="space-y-1 text-sm text-muted-foreground">
+              <div className="space-y-1 text-sm text-foreground/80">
                 <p>Monday - Friday: 9:00 AM - 6:00 PM EST</p>
                 <p>Saturday: 10:00 AM - 4:00 PM EST</p>
                 <p>Sunday: Closed</p>

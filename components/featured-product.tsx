@@ -37,10 +37,10 @@ export function FeaturedProduct() {
                     <Star key={i} className="w-5 h-5 fill-accent text-accent" />
                   ))}
                 </div>
-                <span className="text-sm text-muted-foreground">(247 reviews)</span>
+                <span className="text-sm text-foreground/70">(247 reviews)</span>
               </div>
 
-              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              <p className="text-lg text-foreground mb-6 leading-relaxed">
                 Our most comprehensive leather care solution. This professional-grade kit includes everything you need
                 to clean, condition, and protect your finest leather footwear.
               </p>
@@ -50,25 +50,25 @@ export function FeaturedProduct() {
                   <div className="w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-accent text-xs">✓</span>
                   </div>
-                  <p className="text-sm text-muted-foreground">Premium leather conditioner with natural oils</p>
+                  <p className="text-sm text-foreground/80">Premium leather conditioner with natural oils</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-accent text-xs">✓</span>
                   </div>
-                  <p className="text-sm text-muted-foreground">Professional horsehair brushes (set of 3)</p>
+                  <p className="text-sm text-foreground/80">Professional horsehair brushes (set of 3)</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-accent text-xs">✓</span>
                   </div>
-                  <p className="text-sm text-muted-foreground">Microfiber polishing cloths and applicators</p>
+                  <p className="text-sm text-foreground/80">Microfiber polishing cloths and applicators</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-accent text-xs">✓</span>
                   </div>
-                  <p className="text-sm text-muted-foreground">Water-resistant protective spray</p>
+                  <p className="text-sm text-foreground/80">Water-resistant protective spray</p>
                 </div>
               </div>
 
@@ -83,7 +83,7 @@ export function FeaturedProduct() {
                 </Link>
               </Button>
 
-              <p className="text-xs text-muted-foreground mt-4">
+              <p className="text-xs text-foreground/70 mt-4">
                 * As an Amazon Associate, we earn from qualifying purchases
               </p>
             </div>

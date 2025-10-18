@@ -24,7 +24,7 @@ export function HeroSection() {
             <span className="block text-accent">Footwear Care</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed text-pretty">
+          <p className="text-lg md:text-xl text-foreground mb-12 max-w-2xl mx-auto leading-relaxed text-pretty">
             Discover our curated collection of premium shoe care products, crafted for those who appreciate the finest
             details in leather maintenance and footwear preservation.
           </p>

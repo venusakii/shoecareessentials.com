@@ -37,7 +37,7 @@ export function ProductCategories() {
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6">Our Collections</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8" />
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-foreground max-w-2xl mx-auto leading-relaxed">
             Explore our carefully curated categories of premium shoe care products
           </p>
         </div>
@@ -57,7 +57,7 @@ export function ProductCategories() {
               </div>
               <div className="p-6">
                 <h3 className="font-serif text-xl font-bold text-foreground mb-2">{category.title}</h3>
-                <p className="text-sm text-muted-foreground mb-4 leading-relaxed">{category.description}</p>
+                <p className="text-sm text-foreground/80 mb-4 leading-relaxed">{category.description}</p>
                 <div className="flex items-center justify-between">
                   <Button variant="ghost" size="sm" className="text-accent hover:text-accent" asChild>
                     <Link href="/reviews">View All →</Link>

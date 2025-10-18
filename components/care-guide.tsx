@@ -32,7 +32,7 @@ export function CareGuide() {
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6">The Perfect Care Routine</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8" />
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-foreground max-w-2xl mx-auto leading-relaxed">
             Follow our expert four-step process for professional-quality results
           </p>
         </div>
@@ -51,7 +51,7 @@ export function CareGuide() {
                 </div>
               </div>
               <h3 className="font-serif text-2xl font-bold text-foreground mb-3">{guide.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{guide.description}</p>
+              <p className="text-sm text-foreground/80 leading-relaxed">{guide.description}</p>
             </div>
           ))}
         </div>
