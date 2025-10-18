@@ -34,13 +34,13 @@ export function ContactSection() {
     {
       icon: Phone,
       title: "Phone",
-      content: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      content: "+1 213-447-6666",
+      href: "tel:+12134476666",
     },
     {
       icon: MapPin,
       title: "Address",
-      content: "123 Luxury Lane, New York, NY 10001",
+      content: "3684 Zimmerman Lane, Los Angeles, CA 90013",
       href: "#",
     },
   ]
